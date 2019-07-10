@@ -2,8 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../js/lightbox/lightbox.css">
+    <link rel="stylesheet" href="../js/fancybox/jquery.fancybox.min.css">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/main.css">
     <title>Interactive Photo Gallery</title>
@@ -13,60 +14,86 @@
       <input type="search" id="search" name="search" data-list=".photos" placeholder="Search...">
     </header>
     <main>
-      <div class="container photos">
+      <div class="container">
+        <ul class="photos">
 
-          <a href="../photos/01.jpg" data-lightbox="roadtrip" data-title="Hay Bales. I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
-            <img class="figure-img" src="../photos/thumbnails/01.jpg" alt="pic-01">
-          </a>
+          <li>
+            <a href="../photos/01.jpg" data-fancybox="roadtrip" data-caption="Hay Bales. I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+              <img class="figure-img" src="../photos/thumbnails/01.jpg" alt="pic-01">
+            </a>
+          </li>
 
-          <a href="../photos/02.jpg" data-lightbox="roadtrip" data-title="Lake. The lake was so calm today. We had a great view of the snow on the mountains from here.">
-            <img class="figure-img" src="../photos/thumbnails/02.jpg" alt="pic-02">
-          </a>
+          <li>
+            <a href="../photos/02.jpg" data-fancybox="roadtrip" data-caption="Lake. The lake was so calm today. We had a great view of the snow on the mountains from here.">
+              <img class="figure-img" src="../photos/thumbnails/02.jpg" alt="pic-02">
+            </a>
+          </li>
 
-          <a href="../photos/03.jpg" data-lightbox="roadtrip" data-title="Canyon. I hiked to the top of the mountain and got this picture of the canyon and trees below.">
-            <img class="figure-img" src="../photos/thumbnails/03.jpg" alt="pic-03">
-          </a>
+          <li>
+            <a href="../photos/03.jpg" data-fancybox="roadtrip" data-caption="Canyon. I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+              <img class="figure-img" src="../photos/thumbnails/03.jpg" alt="pic-03">
+            </a>
+          </li>
 
-          <a href="../photos/04.jpg" data-lightbox="roadtrip" data-title="Iceberg. It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
-            <img class="figure-img" src="../photos/thumbnails/04.jpg" alt="pic-04">
-          </a>
+          <li>
+            <a href="../photos/04.jpg" data-fancybox="roadtrip" data-caption="Iceberg. It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
+              <img class="figure-img" src="../photos/thumbnails/04.jpg" alt="pic-04">
+            </a>
+          </li>
 
-          <a href="../photos/05.jpg" data-lightbox="roadtrip" data-title="Desert. The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
-            <img class="figure-img" src="../photos/thumbnails/05.jpg" alt="pic-05">
-          </a>
+          <li>
+            <a href="../photos/05.jpg" data-fancybox="roadtrip" data-caption="Desert. The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+              <img class="figure-img" src="../photos/thumbnails/05.jpg" alt="pic-05">
+            </a>
+          </li>
 
-          <a href="../photos/06.jpg" data-lightbox="roadtrip" data-title="Fall. Fall is coming, I love when the leaves on the trees start to change color.">
-            <img class="figure-img" src="../photos/thumbnails/06.jpg" alt="pic-06">
-          </a>
+          <li>
+            <a href="../photos/06.jpg" data-fancybox="roadtrip" data-caption="Fall. Fall is coming, I love when the leaves on the trees start to change color.">
+              <img class="figure-img" src="../photos/thumbnails/06.jpg" alt="pic-06">
+            </a>
+          </li>
 
-          <a href="../photos/07.jpg" data-lightbox="roadtrip" data-title="Plantation. I drove past this plantation yesterday, everything is so green!">
-            <img class="figure-img" src="../photos/thumbnails/07.jpg" alt="pic-07">
-          </a>
+          <li>
+            <a href="../photos/07.jpg" data-fancybox="roadtrip" data-caption="Plantation. I drove past this plantation yesterday, everything is so green!">
+              <img class="figure-img" src="../photos/thumbnails/07.jpg" alt="pic-07">
+            </a>
+          </li>
 
-          <a href="../photos/08.jpg" data-lightbox="roadtrip" data-title="Dunes. My summer vacation to the Oregon Coast. I love the sandy dunes!">
-            <img class="figure-img" src="../photos/thumbnails/08.jpg" alt="pic-08">
-          </a>
+          <li>
+            <a href="../photos/08.jpg" data-fancybox="roadtrip" data-caption="Dunes. My summer vacation to the Oregon Coast. I love the sandy dunes!">
+              <img class="figure-img" src="../photos/thumbnails/08.jpg" alt="pic-08">
+            </a>
+          </li>
 
-          <a href="../photos/09.jpg" data-lightbox="roadtrip" data-title="Countryside Lane. We enjoyed a quiet stroll down this countryside lane.">
-            <img class="figure-img" src="../photos/thumbnails/09.jpg" alt="pic-09">
-          </a>
+          <li>
+            <a href="../photos/09.jpg" data-fancybox="roadtrip" data-caption="Countryside Lane. We enjoyed a quiet stroll down this countryside lane.">
+              <img class="figure-img" src="../photos/thumbnails/09.jpg" alt="pic-09">
+            </a>
+          </li>
 
-          <a href="../photos/10.jpg" data-lightbox="roadtrip" data-title="Sunset. Sunset at the coast! The sky turned a lovely shade of orange.">
-            <img class="figure-img" src="../photos/thumbnails/10.jpg" alt="pic-10">
-          </a>
+          <li>
+            <a href="../photos/10.jpg" data-fancybox="roadtrip" data-caption="Sunset. Sunset at the coast! The sky turned a lovely shade of orange.">
+              <img class="figure-img" src="../photos/thumbnails/10.jpg" alt="pic-10">
+            </a>
+          </li>
 
-          <a href="../photos/11.jpg" data-lightbox="roadtrip" data-title="Cave. I did a tour of a cave today and the view of the landscape below was breathtaking.">
-            <img class="figure-img" src="../photos/thumbnails/11.jpg" alt="pic-11">
-          </a>
+          <li>
+            <a href="../photos/11.jpg" data-fancybox="roadtrip" data-caption="Cave. I did a tour of a cave today and the view of the landscape below was breathtaking.">
+              <img class="figure-img" src="../photos/thumbnails/11.jpg" alt="pic-11">
+            </a>
+          </li>
 
-          <a href="../photos/12.jpg" data-lightbox="roadtrip" data-title="Bluebells. I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
-            <img class="figure-img" src="../photos/thumbnails/12.jpg" alt="pic-12">
-          </a>
+          <li>
+            <a href="../photos/12.jpg" data-fancybox="roadtrip" data-caption="Bluebells. I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+              <img class="figure-img" src="../photos/thumbnails/12.jpg" alt="pic-12">
+            </a>
+          </li>
 
+        </ul>
       </div>
     </main>
     <script src="../js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="../js/lightbox/lightbox.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/fancybox/jquery.fancybox.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="../js/hideseek/jquery.hideseek.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="../js/app.js" type="text/javascript" charset="utf-8"></script>
   </body>

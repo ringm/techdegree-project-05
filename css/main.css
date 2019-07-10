@@ -15,6 +15,15 @@ header {
   margin-right: auto;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+}
+
 input {
   border-radius: 5px;
   border: 1px solid #e5e5e5;
@@ -30,26 +39,9 @@ input:focus {
 
 .photos a {
   text-decoration: none;
-  display: inline-block;
   margin: 0;
 }
 
-/* lightbox styles */
-
-.lb-data .lb-details {
- width: 100%;
- text-align: center;
-}
-
-.lb-data {
- margin-top: 25px;
-}
-
-.lb-data .lb-caption {
- font-size: 15px;
- max-width: 600px;
-}
-
-.lb-data .lb-close {
- display: none;
+.hide {
+  display: none;
 }
