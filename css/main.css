@@ -21,14 +21,18 @@ ul {
 }
 
 li {
-  display: inline-block;
+  display: inline;
+}
+
+img {
+  width: 45%;
 }
 
 input {
   border-radius: 5px;
   border: 1px solid #e5e5e5;
   height: 50px;
-  width: 410px;
+  width: 75%;
   padding: 15px;
 }
 
@@ -44,4 +48,13 @@ input:focus {
 
 .hide {
   display: none;
+}
+
+@media (min-width: 450px) {
+  img {
+    width: 100%;
+  }
+  li {
+    display: inline-block;
+  }
 }
