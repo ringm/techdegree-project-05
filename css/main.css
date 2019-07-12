@@ -41,7 +41,7 @@ input:focus {
   border: 1px solid #46698b;
 }
 
-.photos a {
+a {
   text-decoration: none;
   margin: 0;
 }
