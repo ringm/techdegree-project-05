@@ -38,6 +38,7 @@ input.addEventListener("input", function() {
   let k = 0;
 
   for(let i=0; i < searchList.length; i++) {
+    //store the caption value
     let caption = keyword[i].getAttribute("data-caption");
     //compares caption against user input
     if(caption.indexOf(inputValue) == -1) {
